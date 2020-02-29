@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="NumberModel"
+            type="com.shaunhossain.learnmylanguage.model.NumberModel" />
+    </data>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/numeric_number"
+        android:text="@={NumberModel.number}"
+        style="@style/NumberListStyle" />
+    <TextView
+        android:id="@+id/text_number"
+        android:text="@={NumberModel.numberText}"
+        style="@style/NumberListStyle"/>
+
+</LinearLayout>
+</layout>

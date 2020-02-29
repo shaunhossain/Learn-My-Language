@@ -1,0 +1,2 @@
+rootProject.name='Learn My Language'
+include ':app'

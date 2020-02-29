@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Learn My Language</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="numbers">Numbers</string>
+    <string name="colors">Colors</string>
+    <string name="phrases">phrases</string>
+    <string name="family_members">Family Members</string>
+</resources>
